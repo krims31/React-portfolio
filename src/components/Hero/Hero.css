@@ -326,7 +326,7 @@
   bottom: 30px;
   left: 50%;
   transform: translateX(-50%);
-  color: white;
+  color: black;
   animation: bounce 2s infinite;
   cursor: pointer;
   opacity: 0;
@@ -334,10 +334,21 @@
   animation-delay: 1.8s;
 }
 
+.scroll-button  {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: black;
+  margin-left: -800px;
+  font-size: 1.2rem;
+  animation: fadeInUp 1s ease forwards;
+  animation-delay: 1.8s;
+}
+
 .hero-stats {
     display: flex;
     justify-content: center;
-    gap: 3rem;
+    gap: 10rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
     opacity: 0;
@@ -350,7 +361,6 @@
     padding: 1.5rem 1rem;
     border-radius: 15px;
     backdrop-filter: blur(10px);
-    border: 1px solid black;
     min-width: 120px;
     transition: all 0.3s ease;
 }

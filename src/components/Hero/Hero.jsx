@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { heroData } from "../../data/hero";
 import './Hero.css';
 
-const Hero = ({ hasAnimated }) => {
+const Hero = () => {
     const [currentTextIndex, setCurrentTextIndex] = useState(0);
     const [currentText, setCurrentText] = useState('');
     const [isDeleting, setIsDeleting] = useState(false);
@@ -129,7 +129,8 @@ const Hero = ({ hasAnimated }) => {
                 </div>
                 
                 <div className="scroll-down" onClick={scrollToAbout}>
-                    <ArrowDownIcon />
+                    <button className="scroll-button" onClick={scrollToAbout}>Learn more</button>
+                    <div className="arrow" style={{marginLeft: '-800px', marginTop: '10px'}}><ArrowDownIcon  /></div>
                 </div>
             </div>
         </section>

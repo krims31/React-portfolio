@@ -14,11 +14,11 @@ export const heroData = {
         {
             name: 'GitHub',
             url: 'https://github.com/krims31',
-            icon: 'Github' // Исправлено на Github
+            icon: 'Github'
         },
         {
             name: 'Email',
-            url: 'mailto:krims31@mail.ru', // Добавлено mailto:
+            url: 'mailto:krims31@mail.ru',
             icon: 'Mail'
         },
         {
