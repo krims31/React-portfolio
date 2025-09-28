@@ -1,4 +1,4 @@
-export const project = [
+export const projects = [
     {
         title: 'Login-TS-React',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.',
