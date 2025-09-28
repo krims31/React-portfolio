@@ -1,0 +1,51 @@
+.contact {
+    padding: 10rem 0;
+    text-align: center;
+}
+
+.contact h2 {
+    position: relative;
+    top: -100px;
+    font-size: 3rem;
+    margin-bottom: 6rem;
+    margin-top: -3rem;
+}
+
+.contact p {
+    position: relative;
+    top: -80px;
+    font-size: 1.5rem;
+    margin-top: -3rem;
+}
+
+.contact-container {
+    position: relative;
+    top: -50px;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.contact-container a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+    border: 1px solid black;
+    padding: 10px;
+    background: black;
+    border-radius: 10px;
+}
+
+.contact-container a:hover {
+    cursor: pointer;
+    color: black;
+    background: transparent;
+}
+
+@media screen and (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+}

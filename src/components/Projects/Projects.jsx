@@ -7,7 +7,7 @@ const ProjectsList = () => {
   if (!projects || projects.length === 0) return null;
 
   return (
-    <section className="projects-section">
+    <section id="Projects" className="projects-section">
       <h2>My Projects</h2>
       <div className="projects-grid">
         {projects.map((p, index) => (

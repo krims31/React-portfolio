@@ -101,7 +101,7 @@ const Hero = () => {
                         <span>View My Work</span>
                         <ArrowDownIcon />
                     </button>
-                    <a href="#contact" className="secondary-btn">
+                    <a href="Contact" className="secondary-btn">
                         Contact Me
                     </a>
                 </div>
@@ -122,7 +122,7 @@ const Hero = () => {
                 <div className="hero-stats">
                     {stats.map((stat, index) => (
                         <div key={index} className="stat-item">
-                            <div className="stat-number">{stat.number}</div>
+                            <div className="stat-number">{stat.number}+</div>
                             <div className="stat-label">{stat.label}</div>
                         </div>
                     ))}
